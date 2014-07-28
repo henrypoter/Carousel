@@ -1,0 +1,29 @@
+body,ul,ol {
+  padding: 0;
+  margin: 0;
+}
+
+[data-role=carousel] {
+  overflow: hidden;
+}
+[data-role=carousel] .carousel {
+  overflow: hidden;
+  margin: 0;
+}
+[data-role=carousel] .carousel .c-item {
+  float: left;
+  list-style: none;
+}
+[data-role=carousel] .carousel .c-item > a > img {
+  display: block;
+  width: 100%;
+}
+[data-role=carousel] .dot i {
+  display: inline-block;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
+[data-role=carousel] .dot .activate {
+  background-color: blue;
+}
