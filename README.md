@@ -6,6 +6,7 @@ Carousel
 
 ##功能点
 
+* 支持单页面多个控件
 * 支持自动滚动。`data-autoplay="true"`
 * 支持循环
 * 支持前后导航
@@ -30,5 +31,5 @@ div[data-role=carousel]>(ul.carousel>li.c-item>a[title]>img)+(h2>span)+.navi>(sp
 ##DEMO
 
 ```
-&lt;div data-role="carousel" data-timeout="3000" data-autoplay="true" data-speed="300"&gt;
+<div data-role="carousel" data-timeout="3000" data-autoplay="true" data-speed="300">
 ```
